@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<tittle>Benim Web Sitem</tittle>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<a href="#">Ana Sayfa</a>
+<a href="#about">Hakkımda</a>
+<a href="#projects">Projeler</a>
+<a href="#contact">İletişim</a>
+
+<button onclick="modDeğiştir()">Mod Değiştir</button>
+</nav>
+
+<section class="hero">
+
+<img src="profil.jpg" class="profil-foto">
+
+<h1>Web Siteme Hoşgeldiniz</h1>
+<p>Ben Web Geliştirme Öğreniyorum</p>
+
+<button>Projelerimi Gör</button>
+
+</section>
+
+<section id="about">
+<h1>Hakkımda</h1>
+<p>Ben web geliştirme öğrenen bir geliştiriciyim. HTML ve CSS ile projeler yapıyorum.</p>
+</section>
+
+<section id="projects">
+<h2>Projeler</h2>
+<p>Burada ileride yaptığım projeleri paylaşacağım.</p>
+</section>
+
+<section id="iletişim">
+<h2>İletişim</h2>
+
+<form>
+<input type="text" placeholder="Ece Hüner" required><br><br>
+
+<input type="email" placeholder="Ecehuner@gmail.com" required><br><br>
+
+<textarea placeholder="Yazmak istediğiniz mesaj"></textarea><br><br>
+
+<button type="submit">Gönder</button>
+
+</form>
+</section>
+
+<p>E-mail: Ornek@gmail.com</p>
+</section>
+
+<script>
+function modDeğiştir(){
+document.body.classList.toggle(dark-mode);
+}
+</script>
+
+</body>
+
+</html>
+
+<section id="projeler">
+<h2>Projeler</h2>
+
+<div class="proje-kart">
+<h3>Proje 1</h3>
+<p>HTML ve CSS kullanarak yaptığım ilk site.</p>
+</div>
+
+<div class="proje-kart">
+<h3>Proje 2</h3>
+<p>Basit bir portfolyo sitesi.</p>
+</div>
+
+</section>
